@@ -2,6 +2,7 @@
     --bgcolor: #353A40;
     --textcolor: white;
     --bgbtn: #29A744;
+   
            
 
 }
@@ -48,14 +49,31 @@ header{
 }
 
 .contenedor{
-    font-size: 20px;
-    ;
+    padding-top: 100px;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuadraditos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2em;
+    
+
+}
+
+
+.formulario{
+    margin-left: 2em;
+    margin-bottom: 2em;
 
 }
 
 footer{
     position: relative;
-    margin-bottom: 10px;
+    padding: 20px;
     background-color: var(--bgcolor);
     display:flex;
     flex-direction:row;
